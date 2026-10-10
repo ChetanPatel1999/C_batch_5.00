@@ -1,0 +1,10 @@
+//its run infinite time
+#include <stdio.h>
+void main()
+{
+    for (;;)
+    {
+        printf("hello world institute\n");
+        printf("hi i am chetan\n");
+    }
+}
