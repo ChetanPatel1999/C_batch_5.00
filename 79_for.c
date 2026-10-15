@@ -4,13 +4,13 @@ void main()
 {
     int i, n;
     printf("enter a num : ");
-    scanf("%d", &n);
+    scanf("%d", &n);//25
     printf("factors of %d = ", n);
-    for (i = 1; i <= n; i++)
+    for (i = 1; i <= n; i++)//3
     {
         if (n % i == 0)
         {
-            printf("%d ", i);
+            printf("%d ", i); //1 5 25
         }
     }
 }

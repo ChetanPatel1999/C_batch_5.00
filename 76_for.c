@@ -9,5 +9,6 @@ void main()
     {
         res = res + i; // res = 15
     }
-    printf("sum of 1 to %d = %d", n, res);
+    printf("sum of 1 to %d = %d\n", n, res);
+    printf("average of 1 to %d = %.2f", n, res / (float)n);
 }
