@@ -1,4 +1,4 @@
-// Write a program to display factors count of given number.
+// Write a program to check given number is prime or not.
 #include <stdio.h>
 void main()
 {
