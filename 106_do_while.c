@@ -10,13 +10,14 @@ void main()
         printf("welcome to my club !\n");
         do
         {
+        menu:
             printf("   club menu : \n");
             printf("<----------------->\n");
             printf("1. noodles : 120 rs\n");
             printf("2. cold coffee : 70 rs\n");
             printf("3. sandwitch : 150 rs\n");
             printf("choose any item : ");
-            scanf("%d", &order); // 3
+            scanf("%d", &order); // 2
             if (order == 1)
             {
                 c1++;
@@ -34,7 +35,8 @@ void main()
             }
             else
             {
-                printf("please enter 1 to 3\n");
+                printf("\nplease enter 1 to 3\n\n");
+                goto menu;
             }
 
             printf("\n order list : \n");
