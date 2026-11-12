@@ -6,6 +6,7 @@ void add(int a, int b)
     c = a + b;
     printf("sum = %d\n", c);
 }
+
 void square(int n)
 {
     int s;
