@@ -1,6 +1,6 @@
 // no return type no parameter
 #include <stdio.h>
-void add()
+void add(  )
 {
     int a, b, c;
     printf("enter a : ");
@@ -10,7 +10,7 @@ void add()
     c = a + b;
     printf("sum = %d\n", c);
 }
-void square()
+void square( )
 {
     int n, s;
     printf("enter a num = ");

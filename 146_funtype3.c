@@ -1,3 +1,4 @@
+//with return type,with parameter
 #include <stdio.h>
 int add(int a, int b)
 {
