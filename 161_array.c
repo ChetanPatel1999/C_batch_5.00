@@ -15,8 +15,8 @@ void main()
     {
         printf("%d ", arr[i]);
     }
-    
-    //4 5 12 48 7
+
+    // 4 5 12 48 7
     printf("\narray even element are : \n");
     for (i = 0; i < 5; i++)
     {
