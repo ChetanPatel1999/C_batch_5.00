@@ -3,10 +3,13 @@
 void main()
 {
     int *ptr, *temp, i;
-    ptr = malloc(20); // 400
+    int n;
+    printf("enter array size : ");
+    scanf("%d", &n);
+    ptr = (int *)malloc(n * sizeof(int)); // 400   sizeof(int)=> 4
     temp = ptr;
     printf("enter array element : \n");
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         scanf("%d", ptr);
         ptr++; // 420
@@ -14,7 +17,7 @@ void main()
 
     ptr = temp; // 400
     printf("array element are :\n");
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         printf("%d ", *ptr);
         ptr++;
@@ -22,7 +25,7 @@ void main()
 
     int sum = 0;
     ptr = temp; // 400
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         sum = sum + *ptr;
         ptr++;
